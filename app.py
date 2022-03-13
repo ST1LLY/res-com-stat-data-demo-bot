@@ -82,7 +82,7 @@ def around_choice(update: Update, context: CallbackContext) -> int:
     data_presenter.set_current_around(update.message.text)
 
     update.message.reply_text(
-        text=f'The around"{update.message.text}" has been chosen!',
+        text=f'The around "{update.message.text}" has been chosen!',
         reply_markup=ReplyKeyboardMarkup([
             [TEXT_COMMON_STAT],
             [TEXT_NEW_STAT],
