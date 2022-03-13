@@ -22,7 +22,7 @@ class DBWrapper():
                         f"{self.__db_config['host']}:{self.__db_config['port']}/{self.__db_config['database']}"
 
         # Проверяем подключение к БД
-        self.__test_connection()
+        # self.__test_connection()
         # Создание sqlalchemy engine
         self.__engine = create_engine(engine_string)
 
