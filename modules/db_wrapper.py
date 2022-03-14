@@ -1,12 +1,13 @@
 """Модуль для подключения к БД Postgres для выполнения запросов
 """
-import sys
 import logging
+import sys
 from typing import List
+
 import pandas as pd
+import psycopg2
 from pandas import DataFrame
 from sqlalchemy import create_engine
-import psycopg2
 
 
 class DBWrapper():

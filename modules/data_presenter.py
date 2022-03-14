@@ -1,4 +1,3 @@
-import logging
 from modules.data_render import DataRender
 
 

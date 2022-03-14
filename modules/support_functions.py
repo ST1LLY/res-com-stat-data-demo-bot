@@ -2,17 +2,16 @@
 для нет необходимости использования  переменных из объекта класса
 """
 import configparser
-from datetime import date, datetime, timedelta
-from operator import itemgetter
-from functools import cmp_to_key
-from typing import Any, Dict, List
-from typing import Union
-import numpy as np
-from pandas import DataFrame
 import logging
+from datetime import date, datetime, timedelta
+from functools import cmp_to_key
 from logging.handlers import RotatingFileHandler
-from colorlog import ColoredFormatter
+from operator import itemgetter
+from typing import Any, Dict, List, Union
 
+import numpy as np
+from colorlog import ColoredFormatter
+from pandas import DataFrame
 
 # Common function
 #

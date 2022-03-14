@@ -2,13 +2,16 @@
 """
 import logging
 # from logging import Logger
-from datetime import timedelta, date
+from datetime import date, timedelta
 from typing import Dict, List
+
+import numpy as np
 import pandas as pd
 from pandas import DataFrame
-import numpy as np
-from .db_wrapper import DBWrapper
+
 import modules.support_functions as sup_f
+
+from .db_wrapper import DBWrapper
 
 
 class DataParserRoot():

@@ -1,17 +1,11 @@
 import os
-from environment import LOGS_DIR_PATH, BOT_CONFIG_PATH
+
+from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
+from telegram.ext import CallbackContext, CommandHandler, ConversationHandler, Filters, MessageHandler, Updater
 
 import modules.support_functions as sup_f
+from environment import BOT_CONFIG_PATH, LOGS_DIR_PATH
 from modules.data_presenter import DataPresenter
-from telegram import Update, ForceReply, ReplyKeyboardMarkup, ReplyKeyboardRemove
-from telegram.ext import (
-    Updater,
-    CommandHandler,
-    MessageHandler,
-    Filters,
-    CallbackContext,
-    ConversationHandler
-)
 
 logger = sup_f.init_custome_logger(
     os.path.join(LOGS_DIR_PATH, 'all.log'),

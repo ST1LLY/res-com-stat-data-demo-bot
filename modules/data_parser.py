@@ -3,10 +3,12 @@
 import logging
 from datetime import timedelta
 from typing import Dict, List
+
 import pandas as pd
 from pandas import DataFrame
-from .data_parser_root import DataParserRoot
+
 from . import support_functions as sup_f
+from .data_parser_root import DataParserRoot
 
 
 class DataParser(DataParserRoot):

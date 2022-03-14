@@ -1,6 +1,7 @@
 """Модуль содержащий константы
 """
 from enum import Enum, auto
+
 from typing_extensions import Literal
 
 
