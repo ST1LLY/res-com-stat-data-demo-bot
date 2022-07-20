@@ -4,6 +4,8 @@
 
 To try life demo http://t.me/ResComStatDataDemoBot.
 
+To send `/start` to Telegram bot to start.
+
 ## Description
 
 ### Subject area
