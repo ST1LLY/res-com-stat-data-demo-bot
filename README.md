@@ -47,11 +47,11 @@ In this demo, the dumped demo data contains such arrounds and residential comple
 - CC Group
 
   - Bolshaya Akademicheskaya 85
-- Dmitrovsky park
+  - Dmitrovsky park
   - Ilmensky 17
-- Love and Pigeons
+  - Love and Pigeons
   - Seliger City
-- Signal 16
+  - Signal 16
   - Talisman on Dmitrovsky
 
 <img src="https://raw.githubusercontent.com/ST1LLY/res-com-stat-data-demo-bot/master/screenshots/all_around.jpg" alt="drawing" width="400"/>
