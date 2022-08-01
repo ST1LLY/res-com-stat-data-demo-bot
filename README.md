@@ -58,7 +58,7 @@ In this demo, the dumped demo data contains such arrounds and residential comple
   - Signal 16
   - Talisman on Dmitrovsky
 
-<img src="https://raw.githubusercontent.com/ST1LLY/res-com-stat-data-demo-bot/master/screenshots/all_around.jpg" alt="drawing" width="400"/>
+
 
 In its turn, the dumped data contains the next information for further analysing:
 
@@ -83,8 +83,6 @@ In this case, 2020-10-07 is the "current" day and 2020-10-06 is the previous.
 
 This section provides the differences of measures of flat on the current day relative to the previous day.
 
-<img src="https://raw.githubusercontent.com/ST1LLY/res-com-stat-data-demo-bot/master/screenshots/common_stat.jpg" alt="drawing" width="400"/>
-
 #### By the new flats relative to old ones
 
 This section provides the differences of measures of the new flats on the current day relative to the old flats on the current day.
@@ -93,8 +91,6 @@ The new flats on the current day are flats that emerge on the current day and do
 
 The old flats on the current day are flats that consistently exist each day in the slice from the current day minus 30 days to the current day.
 
-<img src="https://raw.githubusercontent.com/ST1LLY/res-com-stat-data-demo-bot/master/screenshots/new_flats_to_old_ones.jpg" alt="drawing" width="400"/>
-
 #### By the old flats
 
 This section provides the differences of measures of the old flats on the current day relative to the old flats on the previous day.
@@ -102,8 +98,6 @@ This section provides the differences of measures of the old flats on the curren
 The old flats on the current day are flats that consistently exist each day in the slice from the current day minus 30 days to the current day.
 
 The old flats on the previous day are flats that consistently exist each day in the slice from the previous day minus 30 days to the previous day.
-
-
 
 #### By the sold flats relative to old ones
 
