@@ -1,5 +1,7 @@
 # Residential complexes' stat data demo bot
 
+https://user-images.githubusercontent.com/29194251/182248978-eb97340c-5d48-4d73-9bca-5dfccd5be63c.mp4
+
 ## Content
 
 1. [Description](#description)
