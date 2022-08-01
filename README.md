@@ -1,10 +1,19 @@
 # Residential complexes' stat data demo bot
 
-## Demo
+## Content
 
-To try life demo http://t.me/ResComStatDataDemoBot.
-
-To send `/start` to Telegram bot to start.
+1. [Description](#description)
+   1. [Subject area](#subject-area)
+   2. [Description of stat sections](#description-of-stat-sections)
+      1. [The common statistics](#the-common-statistics)
+      2. [By the new flats relative to old ones](#by-the-new-flats-relative-to-old-ones)
+      3. [By the old flats](#by-the-old-flats)
+      4. [By the sold flats relative to old ones](#by-the-sold-flats-relative-to-old-ones)
+   3. [How to run it for tests](#how-to-run-it-for-tests)
+      1. [Environment](#environment)
+      2. [Preparations](#preparations)
+      3. [To run the app](#to-run-the-app)
+   4. [To-do list](#to-do-list)
 
 ## Description
 
@@ -38,20 +47,14 @@ In this demo, the dumped demo data contains such arrounds and residential comple
 - CC Group
 
   - Bolshaya Akademicheskaya 85
-
-  - Dmitrovsky park
-
+- Dmitrovsky park
   - Ilmensky 17
-
-  - Love and Pigeons
-
+- Love and Pigeons
   - Seliger City
-
-  - Signal 16
-
+- Signal 16
   - Talisman on Dmitrovsky
 
-    
+<img src="https://raw.githubusercontent.com/ST1LLY/res-com-stat-data-demo-bot/master/screenshots/all_around.jpg" alt="drawing" width="400"/>
 
 In its turn, the dumped data contains the next information for further analysing:
 
@@ -76,7 +79,7 @@ In this case, 2020-10-07 is the "current" day and 2020-10-06 is the previous.
 
 This section provides the differences of measures of flat on the current day relative to the previous day.
 
-
+<img src="https://raw.githubusercontent.com/ST1LLY/res-com-stat-data-demo-bot/master/screenshots/common_stat.jpg" alt="drawing" width="400"/>
 
 #### By the new flats relative to old ones
 
@@ -86,7 +89,7 @@ The new flats on the current day are flats that emerge on the current day and do
 
 The old flats on the current day are flats that consistently exist each day in the slice from the current day minus 30 days to the current day.
 
-
+<img src="https://raw.githubusercontent.com/ST1LLY/res-com-stat-data-demo-bot/master/screenshots/new_flats_to_old_ones.jpg" alt="drawing" width="400"/>
 
 #### By the old flats
 
@@ -114,7 +117,7 @@ The old flats on the current day are flats that consistently exist each day in t
 
 Tested on:
 
-- Python 3.7.7
+- [Python 3.7.7](https://www.python.org/downloads/release/python-377/)
 
 
 
